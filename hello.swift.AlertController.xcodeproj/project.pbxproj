@@ -23,6 +23,7 @@
 		353408031B26D01900A16270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		353408051B26D01900A16270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3534080B1B26D05500A16270 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3534080C1B26D63000A16270 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,7 @@
 		353407ED1B26D01800A16270 = {
 			isa = PBXGroup;
 			children = (
+				3534080C1B26D63000A16270 /* README.md */,
 				3534080B1B26D05500A16270 /* .gitignore */,
 				353407F81B26D01800A16270 /* hello.swift.AlertController */,
 				353407F71B26D01800A16270 /* Products */,
