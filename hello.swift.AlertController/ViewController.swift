@@ -10,16 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+    override func viewDidAppear(animated: Bool) {
+        alertIt()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+    func alertIt() {
+
+        let alert = UIAlertController(
+            title: "MyAlert",
+            message: "Hello, can you see me?",
+            preferredStyle: UIAlertControllerStyle.Alert)
+
+        alert.addAction(
+            UIAlertAction(
+                title: "OK",
+                style: UIAlertActionStyle.Default, 
+                handler: nil
+            )
+        )
+
+        presentViewController(alert, animated: true, completion: nil)
     }
 
 
 }
-
